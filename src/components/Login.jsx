@@ -1,11 +1,16 @@
 import React from "react";
-import Login from "./Login";
+import Input from "./Input";
 
 function Login() {
   return (
     <form>
-      <input type="password" placeholder="Password" />
-      <button type="submit">Login</button>
+      <Input type="text" placeholder="Id" />
+      <Input type="password" placeholder="Password" />
+      {!props.isRegistered && (
+        <Input type="password" placeholder="Confirm Password" />
+      )}
+
+      <button type="submit">{props.isRegistered ? "Login" : "Register"}</button>
     </form>
   );
 }

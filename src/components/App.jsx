@@ -4,11 +4,22 @@ import Footer from "./Footer";
 import Words from "./Words";
 import Login from "./Login";
 
+function renderConditionally() {
+  // if (isLoggedIn === true) {
+  //   return <h1>Hello</h1>;
+  // } else {
+  //   return <Login />;
+  // }
+
+
 function App() {
   return (
-    <div>
+    <div className="login_page">
       <Header />
-      <Login />
+      {renderConditionally()}
+      </div>
+
+    <div className="dictionary_page">
       <h1>A word a day!</h1>
       {Words.map((wordItem) => (
         <Dictionary
