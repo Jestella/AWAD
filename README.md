@@ -1,1 +1,1 @@
-# A Word A Day
+# 📒 A Word A Day
