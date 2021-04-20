@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AddNew(props) {
+function AddNote(props) {
   const [word, setWord] = useState({
     word: "",
     sentence: "",
@@ -58,13 +58,13 @@ function AddNew(props) {
           name="meaning_es"
           onChange={handleChange}
           value={word.meaning_es}
-          placeholder="in Spanish"
+          placeholder="in Español"
         />
         <textarea
           name="meaning_jp"
           onChange={handleChange}
           value={word.meaning_jp}
-          placeholder="in Japanese"
+          placeholder="in 日本語"
         />
         <button onClick={submitWord}>Add</button>
       </form>
@@ -72,4 +72,4 @@ function AddNew(props) {
   );
 }
 
-export default AddNew;
+export default AddNote;

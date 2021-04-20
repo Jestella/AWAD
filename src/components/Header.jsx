@@ -6,13 +6,13 @@ function Header() {
     <header>
       <div class="top_container">
         <img src="./images/logo.png" class="logo" />
-        <Login />
       </div>
 
       <div class="header_title">
         <h1>A Word A Day!</h1>
         <p>Make your own dictionary with AWAD</p>
       </div>
+      <Login />
     </header>
   );
 }

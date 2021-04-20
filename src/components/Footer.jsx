@@ -4,7 +4,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer>
-      <p>© Stella Lee {currentYear}</p>
+      <p>AWAD © Stella Lee {currentYear}</p>
     </footer>
   );
 }

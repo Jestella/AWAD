@@ -1,4 +1,5 @@
 import React from "react";
+import { FaTimes } from "react-icons/fa";
 
 function Word(props) {
   function handleClick() {
@@ -7,12 +8,14 @@ function Word(props) {
 
   return (
     <div className="word">
+      <button onClick={handleClick}>
+        <FaTimes />
+      </button>
       <h1>{props.word}</h1>
-      <p>{props.sentence}</p>
-      <p>{props.meaning_en}</p>
-      <p>{props.meaning_es}</p>
-      <p>{props.meaning_jp}</p>
-      <button onClick={handleClick}>DELETE</button>
+      <p>"{props.sentence}"</p>
+      <p>EN: {props.meaning_en}</p>
+      <p>ES: {props.meaning_es}</p>
+      <p>JP: {props.meaning_jp}</p>
     </div>
   );
 }

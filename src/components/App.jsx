@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Word from "./Word";
-import AddNew from "./AddNew";
+import AddNote from "./AddNote";
 
 function App() {
   const [words, setWords] = useState([]);
@@ -24,7 +24,7 @@ function App() {
   return (
     <div>
       <Header />
-      <AddNew onAdd={addWord} />
+      <AddNote onAdd={addWord} />
       {words.map((wordItem, index) => {
         return (
           <Word
