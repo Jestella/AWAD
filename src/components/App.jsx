@@ -25,20 +25,18 @@ function App() {
     <div>
       <Header />
       <AddNote onAdd={addWord} />
-      {words.map((wordItem, index) => {
-        return (
-          <Word
-            key={index}
-            id={index}
-            word={wordItem.word}
-            sentence={wordItem.sentence}
-            meaning_en={wordItem.meaning_en}
-            meaning_es={wordItem.meaning_es}
-            meaning_jp={wordItem.meaning_jp}
-            onDelete={deleteWord}
-          />
-        );
-      })}
+      {words.map((wordItem, index) => (
+        <Word
+          key={index}
+          word={wordItem.word}
+          sentence={wordItem.sentence}
+          meaning_en={wordItem.meaning_en}
+          meaning_es={wordItem.meaning_es}
+          meaning_jp={wordItem.meaning_jp}
+          onDelete={deleteWord}
+        />
+      ))}
+
       <Footer />
     </div>
   );
