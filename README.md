@@ -1,7 +1,7 @@
 # 📒 A Word A Day 
 
 My first react app! <br>
-This app is for those who want to be multilingual. You add a word and sentence in English and add the meanings in different languages to learn multiple languages at the same time. 
+This app is for those who want to be multilingual. Add words and sentences in English, and add the meanings in different languages to learn multiple languages at the same time. 
 
 
 # Demo
