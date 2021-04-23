@@ -5,7 +5,7 @@ This is a DIY dictionary app for those who want to be multilingual.
 
 
 # Demo
-##### Live Demo : https://jestella.github.io/AWAD/
+##### Live Demo : https://jestella.github.io/AWAD/ Please click the logo to start. Thanks! 
 
 <img width="1350" alt="Screen Shot 2021-04-23 at 12 35 41 AM" src="https://user-images.githubusercontent.com/31642902/115822821-2dfe4e80-a3d3-11eb-8de7-f8489ebb2bb8.png">
 <img width="1335" alt="Screen Shot 2021-04-23 at 12 53 52 AM" src="https://user-images.githubusercontent.com/31642902/115822835-35255c80-a3d3-11eb-92a0-bba0f2834220.png">
