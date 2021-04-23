@@ -12,6 +12,9 @@ This app is for those who want to be multilingual. Add words and sentences in En
 <ul>
 <li>React</li>
 <li>React Hook</li>
+<li>Router</li>
+<li>React Icons</li>
+<li>React Country Flag</li>
 </ul>
 
 
@@ -20,7 +23,7 @@ This app is for those who want to be multilingual. Add words and sentences in En
 <li>How to create a react app</li>
 <li>React Hooks and useState</li>
 <li>ES6 Spread Operator</li>
-<li>React icons</li>
+<li>Router</li>
 </ul>
 
 
