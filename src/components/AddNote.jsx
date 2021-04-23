@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaPencilAlt } from "react-icons/fa";
 
 function AddNote(props) {
   const [word, setWord] = useState({
@@ -34,7 +35,7 @@ function AddNote(props) {
 
   return (
     <div>
-      <form>
+      <form autoComplete="off">
         <input
           name="word"
           onChange={handleChange}
@@ -46,27 +47,29 @@ function AddNote(props) {
           onChange={handleChange}
           value={word.sentence}
           placeholder="in sentence"
-          rows="3"
+          rows="2"
         />
         <textarea
           name="meaning_en"
           onChange={handleChange}
           value={word.meaning_en}
-          placeholder="in English"
+          placeholder="English"
         />
         <textarea
           name="meaning_es"
           onChange={handleChange}
           value={word.meaning_es}
-          placeholder="in Español"
+          placeholder="Español"
         />
         <textarea
           name="meaning_jp"
           onChange={handleChange}
           value={word.meaning_jp}
-          placeholder="in 日本語"
+          placeholder="日本語"
         />
-        <button onClick={submitWord}>Add</button>
+        <button onClick={submitWord}>
+          <FaPencilAlt class="FaPencilAlt" />
+        </button>
       </form>
     </div>
   );
