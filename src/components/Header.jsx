@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Login from "./Login";
 
 function Header() {
   return (
@@ -18,7 +17,11 @@ function Header() {
 
         <div class="nav_btn">
           <button>
-            <Login />
+            <Link to="/login">
+              Get
+              <br />
+              Started
+            </Link>
           </button>
         </div>
       </nav>

@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Note from "./Note";
 import AddNote from "./AddNote";
 import About from "./About";
+import Login from "./Login";
 
 function App() {
   const [word, setWord] = useState([]);
@@ -27,7 +28,6 @@ function App() {
     <Router>
       <div>
         <Header />
-
         <Route
           path="/"
           exact
@@ -49,6 +49,7 @@ function App() {
             </>
           )}
         />
+        <Route path="/login" component={Login} />
         <Route path="/about" component={About} />
         <Footer />
       </div>

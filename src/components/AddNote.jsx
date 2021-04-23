@@ -35,7 +35,7 @@ function AddNote(props) {
 
   return (
     <div>
-      <form autoComplete="off">
+      <form className="addnote_form" autoComplete="off">
         <input
           name="word"
           onChange={handleChange}

@@ -125,7 +125,7 @@ nav button {
   outline: none;
 }
 
-form {
+.addnote_form {
   position: relative;
   max-width: 420px;
   margin: auto;
@@ -135,8 +135,8 @@ form {
   padding: 110px 60px 60px;
 }
 
-form input,
-form textarea {
+.addnote_form input,
+.addnote_form textarea {
   border: none;
   padding: 5px;
   outline: none;
@@ -146,7 +146,7 @@ form textarea {
   resize: none;
 }
 
-form button {
+.addnote_form button {
   position: absolute;
   right: 10px;
   bottom: 5px;
@@ -174,9 +174,13 @@ form button {
   text-align: center;
 }
 
-.about p {
-  margin-top: 10px;
+.goback_btn {
+  margin-top: 5px;
   color: #f79898;
+}
+
+.goback_btn:hover {
+  color: gray;
 }
 
 .about p:hover {
@@ -207,4 +211,48 @@ footer li {
 
 footer li:hover {
   color: lightgray;
+}
+
+.login_container {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle farthest-corner at 5.3% 17.2%,
+    rgb(255, 227, 254) 0%,
+    rgba(255, 237, 216, 1) 90%
+  );
+  text-align: center;
+  padding: 15rem;
+}
+
+.login_container input {
+  outline: none;
+  background-color: rgba(252, 252, 252, 0.671);
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.login_container button {
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  background-color: #f79898;
+  color: #f9f3f3;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.login_container button:hover {
+  background-color: #262626;
+  color: #f79898;
 }
