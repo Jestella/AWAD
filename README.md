@@ -1,7 +1,12 @@
 # 📒 A Word A Day 
 
-My first react app! <br>
-This is a DIY dictionary app for those who want to be multilingual. 
+A Word A Day is a dictionary app for those who want to learn multiple languages at once.
+<br>
+How to use (4-steps):<br> 
+1) Input a new word 
+2) Add a sample sentence 
+3) Provide definition of the new word 
+4) Click pencil icon to create a new note.
 
 
 # Demo
