@@ -1,6 +1,6 @@
 # 📒 A Word A Day 
 
-A Word A Day is a dictionary app for those who want to learn multiple languages at once.
+A Word A Day is a dictionary app for those who want to learn multiple languages at once.<br>
 <br>
 How to use (4-steps):<br> 
 1) Input a new word 
