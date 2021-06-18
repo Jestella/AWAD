@@ -6,7 +6,7 @@ How to use (4-steps):<br>
 1) Input a new word 
 2) Add a sample sentence 
 3) Provide definition of the new word 
-4) Click pencil icon to create a new note.
+4) Click pencil icon to create a new note
 
 
 # Demo
