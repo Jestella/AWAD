@@ -1,19 +1,25 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
-import Note from "./Note";
-import AddNote from "./AddNote";
-import About from "./About";
-import Login from "./Login";
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from '../src/components/Header';
+import Footer from '../src/components/Footer';
+import Note from '../src/components/Note';
+import AddNote from '../src/components/AddNote';
+import About from '../src/components/About';
+import Login from '../src/components/Login';
 
-function App() {
+import './App.css';
+
+const App = () => {
   const [word, setWord] = useState([]);
 
   function addWord(newWord) {
     setWord((prevWord) => {
       return [...prevWord, newWord];
     });
+  }
+
+  function editWord(id) {
+    setWord((prevWord) => {});
   }
 
   function deleteWord(id) {
@@ -29,7 +35,7 @@ function App() {
       <div>
         <Header />
         <Route
-          path="/"
+          path='/'
           exact
           render={(props) => (
             <>
@@ -49,12 +55,12 @@ function App() {
             </>
           )}
         />
-        <Route path="/login" component={Login} />
-        <Route path="/about" component={About} />
+        <Route path='/login' component={Login} />
+        <Route path='/about' component={About} />
         <Footer />
       </div>
     </Router>
   );
-}
+};
 
 export default App;
